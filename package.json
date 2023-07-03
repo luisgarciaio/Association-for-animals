@@ -1,0 +1,35 @@
+{
+  "name": "asociacion-animales",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.2",
+    "postcss": "^8.4.24",
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-image-gallery": "^1.2.12",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.13.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
